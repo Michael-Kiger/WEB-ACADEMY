@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Web Project - Start</title>
     <link rel="stylesheet" href="/pages/index.css" />
+    <link rel="stylesheet" href="/components/dark-mode-toggle/toggle.css">
   </head>
   <body>
     <div class="container">
@@ -23,6 +24,12 @@
             </li>
             <li>
               <a href="about.html" class="btn">About</a>
+            </li>
+            <li>
+              <label class="dm-switch-container">
+              <input type="checkbox" id="dm-theme-checkbox">
+              <span class="dm-slider-track"></span>
+              </label>
             </li>
           </menu>
         </nav>
@@ -58,5 +65,6 @@
       </footer>
     </div>
     <script src="script.js"></script>
+    <script src="/components/dark-mode-toggle/toggle.js" defer></script>
   </body>
 </html>
